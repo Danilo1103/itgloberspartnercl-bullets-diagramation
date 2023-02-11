@@ -4,7 +4,6 @@ import Bullet from "../Bullet"
 
 export const getBulletsAlTSXList = (bullets: BulletsSchema) => (
     bullets.map((bullet: any, index) => {
-        console.log("Mui bullet es", bullet)
         return <Bullet
             key={index}
             src={bullet.image}
