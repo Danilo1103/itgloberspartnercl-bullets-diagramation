@@ -16,8 +16,6 @@ const BulletGroup = ({
     const { isMobile } = useDevice();
     const { list } = useListContext();
 
-    console.log("Bullets", bullets)
-
     const bulletsGroup = getBulletsAlTSXList(bullets)
     const newListContextValue = list.concat(bulletsGroup)
 
