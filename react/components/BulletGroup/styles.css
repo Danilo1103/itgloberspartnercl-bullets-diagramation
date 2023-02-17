@@ -1,10 +1,10 @@
 .bullet__container {
-    display: flex;
+    display : flex;
     overflow: auto;
 }
 
 .bullet__item--image {
-    min-width: 120px;
+    min-width : 120px;
     min-height: 80px
 }
 
@@ -13,15 +13,15 @@
 }
 
 .bullet__container::-webkit-scrollbar {
-    height: 4px;
+    height: 5px;
 }
 
 .bullet__container::-webkit-scrollbar-track,
 .bullet__container::-webkit-scrollbar-thumb {
-    background-clip: padding-box;
+    background-clip : padding-box;
     background-color: #dfdfdf;
-    border-right: 16px solid transparent;
-    border-left: 16px solid transparent;
+    border-right    : 16px solid transparent;
+    border-left     : 16px solid transparent;
 }
 
 .bullet__container::-webkit-scrollbar-thumb {
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 760px) {
     .bullet__item--image {
-        min-width: 200px;
+        min-width : 200px;
         min-height: 150px
     }
 }
